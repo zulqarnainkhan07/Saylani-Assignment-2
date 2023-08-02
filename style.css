@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #0065c3;
+    position: relative;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.morale {
+    display: flex;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.part1 h2 {
+    margin: 0px;
+    background-color: #1437bf;
+    padding: 5px;
+}
+
+.part1 img {
+    width: 430px;
+    height: 234px;
+}
+
+/* img1 */
+
+.part1 .img1 {
+    padding: 24px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* img2 */
+
+.part1 .img2 {
+    padding: 24px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.part2 {
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 700px; */
+    width: 100%;
+    padding-top: 20px;
+    background-color: #265cc5;
+   
+}
+
+.part2 .img3{
+    width: 400px;
+    height: 158px;
+    margin-top: 500px;
+    margin-left: 49%;
+} 
+
